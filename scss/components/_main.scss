@@ -31,12 +31,11 @@ img {
 
 .btn {
     @include button;
-}
-
-@media only screen and (min-width: 60em) {
-    .btn {
+    @media only screen and (min-width: 60em) {
         display: inline-block;
         width: 15.333%;
         margin: .5%;
     }
+    
 }
+
