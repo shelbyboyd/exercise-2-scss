@@ -1,0 +1,11 @@
+@mixin button {
+    text-decoration: none;
+    background-color: $teal;
+    color: $white;
+    font-weight: bold;
+    font-size: 1.25em;
+    padding: 1em;
+    display: block;
+    margin: .25em;
+    text-align: center;
+}

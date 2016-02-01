@@ -1,0 +1,42 @@
+html {
+	box-sizing: border-box;
+    background-color: $lt-yellow;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    margin: .25em;
+}
+
+.icon {
+    font-size: 4em;
+    padding-top: .25em;
+}
+
+.top {
+    font-size: 2em;
+    position:absolute;
+    right: 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.btn {
+    @include button;
+}
+
+@media only screen and (min-width: 60em) {
+    .btn {
+        display: inline-block;
+        width: 15.333%;
+        margin: .5%;
+    }
+}
